@@ -1,0 +1,10 @@
+data:
+  path: 'data/ratings.csv'
+  user_col: 'user_id'
+  item_col: 'item_id'
+  # rating_col: 'rating'
+
+model:
+  name: 'MostPopular'
+  params:
+    top_k: 10
